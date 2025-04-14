@@ -154,6 +154,7 @@ func (p *MissionControlProvider) Resources(ctx context.Context) []func() resourc
 		NewJPDResource,
 		NewAccessFederationStarResource,
 		NewAccessFederationMeshResource,
+		NewLicenseBucketJPDResource,
 	}
 }
 
